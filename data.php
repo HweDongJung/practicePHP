@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/presetDB.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/DB/presetDB.php');
 $query = 'SELECT * from test1';
 $result = $mysqli -> query($query);
 

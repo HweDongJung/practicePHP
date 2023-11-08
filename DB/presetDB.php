@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/config.php');
+require_once($_SERVER['DOCUMENT_ROOT'].'/DB/config.php');
 $mysqli = new mysqli($DB['HOST'],$DB['id'],$DB['pw'],$DB['db']);
 
 if($mysqli){
