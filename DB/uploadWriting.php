@@ -6,4 +6,5 @@ $context = $_POST['context'];
 $title = $_POST['title'];
 $query = "insert into test1 values(null, '".$name."','" .$context."','".$title."')";
 $result = $mysqli -> query($query);
+header("location: /index.php");
 ?>
