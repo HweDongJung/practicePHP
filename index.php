@@ -27,7 +27,7 @@
       <tbody>
         <tr>
           <td width="70" style="text-align: center;"><?php echo $board['id']; ?></td>
-          <td width="500"><a href=""><?php echo $title;?></a></td>
+          <td width="500"><a href="view.php?id=<?=$board['id']?>"><?php echo $title;?></a></td>
           <td width="120" style="text-align: center;"><?php echo $board['name']?></td>
         </tr>
       </tbody>
